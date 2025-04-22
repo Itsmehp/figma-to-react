@@ -27,3 +27,21 @@ body {
 a {
   text-decoration: none;
 }
+
+h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 30px;
+}
+.green-bg {
+  background-color: var(--green);
+  border-radius: 7px;
+  padding: 0 7px;
+}
+
+p {
+  font-size: 18px;
+}

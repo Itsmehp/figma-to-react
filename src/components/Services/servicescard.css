@@ -1,0 +1,91 @@
+.services__card {
+  display: flex;
+  padding: 50px;
+  align-items: stretch;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 45px;
+  box-shadow: 0 4px 0px rgba(0, 0, 0, 1);
+  background-color: var(--grey);
+  height: 310px;
+}
+.services__p1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* flex: 1; */
+  width: 50%;
+  height: 100%;
+}
+.services__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: flex-start;
+}
+.services__title2 {
+  display: inline-block;
+  background-color: var(--green);
+  padding: 0 7px;
+  border-radius: 7px;
+}
+
+.services__learn {
+  display: flex;
+  align-items: center;
+}
+
+.learn__more {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.learn__more img {
+  margin-right: 15px;
+}
+
+/* Backgrounds for cards */
+.services__card.grey {
+  background-color: var(--grey);
+  color: black;
+}
+
+.services__card.green {
+  background-color: var(--green);
+  color: black;
+}
+
+.services__card.black {
+  background-color: black;
+  color: white;
+}
+
+/* Title badge variations */
+.services__title2.grey {
+  background-color: var(--green);
+  color: black;
+}
+
+.services__title2.green {
+  background-color: white;
+  color: black;
+}
+
+.services__title2.black {
+  background-color: white;
+  color: black;
+}
+
+/* Learn more link */
+.learn__more.black {
+  color: white;
+}
+
+.learn__more.green,
+.learn__more.grey {
+  color: black;
+}
