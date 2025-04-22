@@ -1,0 +1,29 @@
+:root {
+  --green: #b9ff66;
+  --black: #191a23;
+  --grey: #f3f3f3;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+a {
+  text-decoration: none;
+}

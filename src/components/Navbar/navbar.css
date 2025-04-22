@@ -1,0 +1,39 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* or higher to stay above content */
+  background-color: #fff; /* optional, to prevent overlap transparency */
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  align-items: center;
+}
+
+.navbar__menu {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+}
+.navbar__menu a {
+  text-decoration: none;
+  color: #000;
+}
+.navbar__button {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  padding: 20px 35px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 10px;
+  font-family: "Space Grotesk", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+}
+
+.navbar__button:hover {
+  background-color: #333;
+  color: #fff;
+}
