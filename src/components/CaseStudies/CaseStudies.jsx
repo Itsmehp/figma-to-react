@@ -1,7 +1,65 @@
 import React from "react";
 import "./casestudies.css";
+import { blackgreen } from "../../assets";
+
 export const CaseStudies = () => {
-  return <div>CaseStudies</div>;
+  return (
+    <div className="wrapper">
+      <div className="services__title">
+        <div className="services__heading green-bg">
+          <h2>Case Studies</h2>
+        </div>
+        <div className="services__description">
+          <p>
+            Explore Real-Life Examples of Our Proven Digital Marketing <br />{" "}
+            Success through Our Case Studies
+          </p>
+        </div>
+      </div>
+
+      <div className="case__studies">
+        <div className="cases">
+          <p className="cases__desc">
+            For a local restaurant, we implemented a targeted PPC campaign that
+            resulted in a 50% increase in website traffic and a 25% increase in
+            sales.
+          </p>
+          <div className="cases__learn">
+            <a href="#" className="learn__more">
+              Learn More
+              <img src={blackgreen} alt="arrow" />
+            </a>
+          </div>
+        </div>
+        <div className="cases">
+          <p className="cases__desc">
+            For a local restaurant, we implemented a targeted PPC campaign that
+            resulted in a 50% increase in website traffic and a 25% increase in
+            sales.
+          </p>
+          <div className="cases__learn">
+            <a href="#" className="learn__more">
+              Learn More
+              <img src={blackgreen} alt="arrow" />
+            </a>
+          </div>
+        </div>
+        <div className="cases">
+          <p className="cases__desc">
+            For a local restaurant, we implemented a targeted PPC campaign that
+            resulted in a 50% increase in website traffic and a 25% increase in
+            sales.
+          </p>
+          <div className="cases__learn">
+            <a href="#" className="learn__more">
+              Learn More
+              <img src={blackgreen} alt="arrow" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default CaseStudies;

@@ -11,7 +11,7 @@ const CTA = () => {
             Contact us today to learn more about how our digital marketing
             services can help your business grow and succeed online.
           </p>
-          <button className="cta__button">Book a Consultation</button>
+          <button className="cta__button">Get your free proposal</button>
         </div>
         <div className="cta__illustration">
           <img src={cta} alt="call to action button" />

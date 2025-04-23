@@ -1,0 +1,27 @@
+.case__studies {
+  display: flex;
+  background: #000;
+  padding: 70px 60px;
+  border-radius: 45px;
+  gap: 64px;
+  justify-content: space-between;
+}
+.cases {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 286px;
+}
+.cases__desc {
+  color: #fff;
+}
+
+.cases__learn {
+  display: flex;
+  align-items: center;
+}
+
+.cases__learn a {
+  text-decoration: none;
+  color: var(--green);
+}
