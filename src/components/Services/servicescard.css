@@ -89,3 +89,7 @@
 .learn__more.grey {
   color: black;
 }
+
+.services__illustration img {
+  max-width: 210px;
+}
