@@ -5,13 +5,17 @@
   width: 100%;
   box-shadow: 0 4px 0 rgba(0, 0, 0, 1);
   color: black;
-  transition: background-color 0.5s ease;
+  transition: transform 0.3s ease;
+  position: relative;
+  will-change: background-color, box-shadow;
 }
 
 .working__card-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .working__card-left {
@@ -33,33 +37,42 @@
 .working__card-desc {
   font-size: 16px;
   line-height: 1.5;
-  margin-top: 12px;
+  margin: 0;
+  white-space: pre-line; /* Preserves line breaks */
 }
 
 .working__toggle-btn {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0;
+  padding: 10px;
+  margin: -10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.working__toggle-btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .working__card-desc-wrapper {
-  max-height: 0;
   overflow: hidden;
-  transform: translateY(-10px);
-  transition: max-height 0.5s ease, opacity 0.4s ease, transform 0.4s ease;
-  opacity: 0;
-  border-top: 1px solid black;
+  position: relative;
+  will-change: max-height, margin-top, padding-top, border-top-width,
+    border-top-color;
+  border-top-style: solid; /* We keep the style constant and animate width and color */
 }
 
-.working__card-desc-wrapper.expanded {
-  max-height: 500px; /* Adjust based on your content size */
-  opacity: 1;
-  transform: translateY(0);
-  margin-top: 30px;
-  padding-top: 30px;
+.working__card-content {
+  width: 100%;
+  padding: 0 0 15px;
+  will-change: opacity;
 }
 
-.working__card.expanded {
-  background-color: var(--green);
+/* Optional: add subtle hover effect */
+.working__card:hover {
+  transform: translateY(-2px);
 }
