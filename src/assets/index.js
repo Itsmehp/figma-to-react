@@ -19,8 +19,12 @@ import whiteblack from "./white-black.svg";
 import blackwhite from "./black-white.svg";
 import whitegreen from "./white-green.svg";
 import cta from "./enlarged/Illustration-ccta.png";
+import plus from "./plus.svg";
+import minus from "./minus.svg";
 
 export {
+  plus,
+  minus,
   hero,
   black1,
   black2,
