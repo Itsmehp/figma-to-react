@@ -1,0 +1,7 @@
+.team__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1280px; /* optional container limit */
+  margin: 0 auto; /* center it */
+}

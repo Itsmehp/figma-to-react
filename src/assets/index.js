@@ -21,8 +21,12 @@ import whitegreen from "./white-green.svg";
 import cta from "./enlarged/Illustration-ccta.png";
 import plus from "./plus.svg";
 import minus from "./minus.svg";
+import pp from "./Picture.png";
+import si from "./linkedin.png";
 
 export {
+  si,
+  pp,
   plus,
   minus,
   hero,
