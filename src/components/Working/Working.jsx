@@ -9,15 +9,23 @@ const cardData = [
       "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
   },
   {
-    title: "Strategy",
+    title: "Research and Strategy Development",
     description: "Our team develops a tailored plan for your success.",
   },
   {
-    title: "Execution",
+    title: "Implementation",
     description: "We put the strategy into action with expert precision.",
   },
   {
-    title: "Analysis",
+    title: "Monitoring and Optimization",
+    description: "We analyze the performance and optimize results.",
+  },
+  {
+    title: "Reporting and Communication",
+    description: "We analyze the performance and optimize results.",
+  },
+  {
+    title: "Continual Improvement",
     description: "We analyze the performance and optimize results.",
   },
 ];
